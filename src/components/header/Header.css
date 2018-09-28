@@ -1,0 +1,15 @@
+#header {
+    grid-area: 1 / 2 / 2 / 5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+img {
+    width: 150px;
+    align-self: center;
+}
+
+.ask-question-button {
+    align-self: center;
+}

@@ -1,0 +1,35 @@
+#tabs {
+  background-color: #407bac;
+  display: flex;
+  justify-content: center;  
+}
+
+.tab {
+  border-radius: 2.5px 2.5px 0 0;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.tab a {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+.tab:hover {
+  background-color: #f1f1f1;
+}
+
+.tab:hover a {
+  color: black;
+}
+
+.selected {
+  background-color: #f1f1f1;
+}
+
+.selected a {
+  color: #407bac;
+}

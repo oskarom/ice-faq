@@ -1,0 +1,17 @@
+#search-box {
+  width: 100%;
+}
+
+input {
+  border-radius: 2.5px;
+  border: none;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: medium;
+  /* color: #9d9d9d; */
+}
+
+input::placeholder {
+  color: #9d9d9d;
+}
